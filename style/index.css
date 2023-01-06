@@ -10,10 +10,12 @@ body {
     margin: 69px auto 69px;
     padding-top: 10px;
 }
+
 .card-all {
     margin-right: -10px;
     margin-left: -10px;
 }
+
 .line {
     height: 2px;
     width: 80px;
@@ -26,11 +28,11 @@ body {
     width: 220px;
     margin: 0 10px;
     display: inline-block;
-    }
+    transition: all 0.3s;
+}
 
 .card:hover {
     box-shadow: 0 0 10px 10px #87F;
-    transition: all 0.3s;
 }
 
 .team_photo {
@@ -78,10 +80,11 @@ p {
     margin: 0 3px 27px;
     background: #F5F5F5;
     padding: 0 7px;
+    transition: all 0.3s;
 }
+
 .icon:hover {
     opacity: 33%;
-    transition: all 0.3s;
-    }
+}
 
 
