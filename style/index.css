@@ -1,0 +1,87 @@
+body {
+    color: #333333;
+    background: white;
+    text-align: center;
+}
+
+
+.container {
+    max-width: 940px;
+    margin: 69px auto 69px;
+    padding-top: 10px;
+}
+.card-all {
+    margin-right: -10px;
+    margin-left: -10px;
+}
+.line {
+    height: 2px;
+    width: 80px;
+    margin: 0 auto 43px;
+    background: rgba(0, 0, 0, 0.09);
+}
+
+.card {
+    height: 100%;
+    width: 220px;
+    margin: 0 10px;
+    display: inline-block;
+    }
+
+.card:hover {
+    box-shadow: 0 0 10px 10px #87F;
+    transition: all 0.3s;
+}
+
+.team_photo {
+    height: 220px;
+    width: 220px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+h1, h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 23px;
+    line-height: 36px;
+    margin-bottom: 28px;
+    text-shadow: 0 20px #87F, 0 -20px magenta;
+}
+
+h3 {
+    font-size: 16px;
+    line-height: 20px;
+    margin: 20px 0 6px;
+    text-shadow: none;
+}
+
+p {
+    font-family: 'Vollkorn', serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 29px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+
+.icon {
+    height: 14px;
+    width: 29px;
+    object-fit: contain;
+    display: inline-block;
+    margin: 0 3px 27px;
+    background: #F5F5F5;
+    padding: 0 7px;
+}
+.icon:hover {
+    opacity: 33%;
+    transition: all 0.3s;
+    }
+
+
